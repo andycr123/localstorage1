@@ -15,3 +15,8 @@ function init(){
         limpiar();
     })
 }
+
+
+function añadir(){ 
+    const clave = document.getElementById
+}
