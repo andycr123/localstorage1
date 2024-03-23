@@ -47,6 +47,3 @@ function eliminar (){
     }
 }
 
-var const = () { 
-    kshfskjdfhskdjfhsdkfhsdkj
-}
