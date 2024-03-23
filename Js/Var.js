@@ -46,3 +46,7 @@ function eliminar (){
         document.getElementById(' mensaje ').innerHTML = ' <> La clave no existe </>  '
     }
 }
+
+var const = () { 
+    kshfskjdfhskdjfhsdkfhsdkj
+}
