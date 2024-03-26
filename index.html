@@ -3,35 +3,30 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ñequi</title>
-    <link rel="stylesheet" href="./Style/Main.css" />
-    <link
-      rel="shortcut icon"
-      href="./img/icons8-aplicación-inteligente-100.png"
-    />
+    <title>Ejemplo localstorage</title>
+    <link rel="shortcut icon" href="./img/icons8-aplicación-inteligente-100.png">
+    <link rel="stylesheet" href="./Style/Main.css">
   </head>
+  
   <body>
-    <div class="container">
-      <div class="formulario">
+    <div id="mensaje" class="container">
+      <div>
         <label for="clave">Clave</label>
-        <input type="text" name="clave" id="valor" />
+        <input type="text" name="clave" id="clave" />
       </div>
-
-      <div class="formulario">
+      <div>
         <label for="valor">Valor</label>
         <input type="text" name="valor" id="valor" />
       </div>
-
-      <div class="botones">
-        <button id="añadir">Añadir</button>
+      <div>
+        <button id="aniadir">Añadir</button>
         <button id="eliminar">Eliminar</button>
         <button id="mostrar">Mostrar</button>
         <button id="limpiar">Limpiar</button>
       </div>
-
-      <div id="mensaje"></div>
-      <div id="datos"></div>
-    </div>
+      
+    </div>    
+    <div id="datos"></div>
   </body>
   <script src="./Js/Var.js"></script>
 </html>
