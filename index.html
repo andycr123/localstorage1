@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+ <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Ejemplo localstorage</title>
     <link rel="shortcut icon" href="./img/icons8-aplicación-inteligente-100.png">
     <link rel="stylesheet" href="./Style/Main.css">
-  </head>
+ </head>
   
-  <body>
+ <body>
     <div id="mensaje" class="container">
       <div>
         <label for="clave">Clave</label>
@@ -21,12 +21,17 @@
       <div>
         <button id="aniadir">Añadir</button>
         <button id="eliminar">Eliminar</button>
-        <button id="mostrar">Mostrar</button>
         <button id="limpiar">Limpiar</button>
       </div>
-      
     </div>    
     <div id="datos"></div>
-  </body>
-  <script src="./Js/Var.js"></script>
+    <!-- Sección para mostrar el monto ingresado -->
+    <div id="montoIngresado" class="container">
+      <h2>Monto Ingresado:</h2>
+      <ul id="listaMonto"></ul>
+      <!-- Botón de regresar -->
+      <button id="regresar">Regresar</button>
+    </div>
+ </body>
+ <script src="./Js/Var.js"></script>
 </html>

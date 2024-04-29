@@ -58,3 +58,40 @@ button:hover {
     font-size: 16px;
     color: #333;
 }
+
+/* Estilos básicos para el contenedor principal */
+/* #contenedorPrincipal {
+    width: 100%;
+    max-width: 600px; /* Ajusta según sea necesario */
+    /* margin: 0 auto;
+    padding: 20px; */
+
+
+/* Estilos para el formulario principal */
+/* .formulario {
+    display: block; /* Asegura que el formulario esté visible por defecto */
+    /* margin-bottom: 20px; */
+
+
+/* Estilos para la sección de montos ingresados */
+/* .montos {
+    display: none; /* Oculta la sección por defecto */
+
+
+/* Estilos para los mensajes */
+/* #mensaje p {
+    color: #333;
+    margin-bottom: 10px;
+} */
+
+/* Estilos para la lista de montos ingresados */
+/* #listaMonto {
+    list-style-type: none;
+    padding: 0;
+}
+
+#listaMonto li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+} */
+
